@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/button"
+        android:text="Popular"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/empty_rounded_background"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Recent"
+        android:textColor="#cccccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/empty_rounded_background"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Music"
+        android:textColor="#cccccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/button2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/empty_rounded_background"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:text="Design"
+        android:textColor="#cccccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/button3"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/empty_rounded_background"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:text="Books"
+        android:textColor="#cccccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/button4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/empty_rounded_background"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

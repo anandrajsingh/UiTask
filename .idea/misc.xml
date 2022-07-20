@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/drawable/background_oval.xml" value="0.1875" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/drawable/background_rounded.xml" value="0.1875" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/drawable/empty_background.xml" value="0.174" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/drawable/empty_rounded_background.xml" value="0.1875" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/drawable/ic_home.xml" value="0.174" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/activity_2.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/buttonstyle.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/gradientbackground.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/item_activity.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/partial_action.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/partial_category.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/partial_cateogory.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/partial_main_activity.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/layout/test1.xml" value="0.25" />
+        <entry key="..\:/Github Upload/UITask/app/src/main/res/menu/bottom_nav.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
