@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UITask">
         <activity
+            android:name=".Activity3"
+            android:exported="false" />
+        <activity
             android:name=".Activity2"
             android:exported="false" />
         <activity

@@ -28,26 +28,56 @@
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_margin="28dp"
-            android:src="@drawable/ic_shark"
-            android:background="@drawable/empty_rounded_background"
+        <Button
+            android:id="@+id/buttonBack"
+            android:backgroundTint="@color/white"
+            android:drawableEnd="@drawable/ic_back"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="28dp"
+            app:layout_constraintStart_toStartOf="@+id/layout1"
+            app:layout_constraintTop_toTopOf="@id/layout1"/>
+
+        <TextView
+            android:id="@+id/textTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Channel"
+            android:textSize="24sp"
+            android:layout_margin="20dp"
             app:layout_constraintStart_toStartOf="@+id/layout1"
             app:layout_constraintEnd_toEndOf="@+id/layout1"
             app:layout_constraintTop_toTopOf="@id/layout1"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="20dp"
+            app:layout_constraintStart_toStartOf="@+id/layout1"
+            app:layout_constraintEnd_toEndOf="@+id/layout1"
+            app:layout_constraintTop_toBottomOf="@id/textTop">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_shark" />
+
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:id="@+id/tv2"
             android:layout_margin="8dp"
             android:text="Baby Pesut Podcast"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/imageView"
+            app:layout_constraintTop_toBottomOf="@id/cardView"
             app:layout_constraintStart_toStartOf="@+id/layout1"
             app:layout_constraintEnd_toEndOf="@+id/layout1"/>
 
@@ -55,12 +85,11 @@
             android:id="@+id/tv3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="0dp"
             android:text="56 Eps"
             android:textColor="#999999"
-            android:textSize="20sp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toStartOf="@+id/tv4"
-            app:layout_constraintStart_toStartOf="@+id/layout1"
+            app:layout_constraintStart_toStartOf="@+id/tv2"
             app:layout_constraintTop_toBottomOf="@id/tv2" />
 
         <TextView
@@ -71,10 +100,21 @@
             android:layout_marginTop="8dp"
             android:text="Dr. Oi om jean"
             android:textColor="#999999"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="@+id/layout1"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/tv2"
             app:layout_constraintStart_toEndOf="@+id/tv3"
             app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+        <Button
+            android:id="@+id/button"
+            android:text="Follow"
+            android:textSize="20sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="@+id/layout1"
+            app:layout_constraintTop_toBottomOf="@id/tv2"
+            app:layout_constraintEnd_toEndOf="@+id/layout1"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -99,7 +139,6 @@
         app:layout_constraintTop_toBottomOf="@+id/tv1">
 
         <ScrollView
-            android:layout_margin="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <include layout="@layout/item_activity" />

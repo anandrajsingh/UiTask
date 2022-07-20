@@ -34,7 +34,7 @@
             android:layout_width="54dp"
             android:layout_height="54dp"
             android:layout_marginTop="8dp"
-            app:cardCornerRadius="27dp"
+            app:cardCornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="@id/layout"
             app:layout_constraintTop_toTopOf="@id/layout">
 
@@ -77,10 +77,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
         android:text="Category"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/layout" />
+
+    <TextView
+        android:id="@+id/textViewSeeAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:text="See All"
+        android:textSize="20sp"
+        android:textColor="#757373"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout" />
 
     <HorizontalScrollView
@@ -123,7 +136,6 @@
         app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2">
 
         <ScrollView
-            android:layout_margin="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <include layout="@layout/item_activity" />
